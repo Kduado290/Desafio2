@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+header {
+  border: solid red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+  font-family: "Oswald";
+
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  nav {
+    width: 40%;
+    border: solid green;
+  }
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: #5b5b5b;
+    font-weight: 500;
+  }
+
+  button {
+    border: solid;
+    width: 11%;
+    height: 10vh;
+    font-size: 1.75rem;
+    font-weight: 400;
+  }
+}
+
+main {
+  .container_background_image {
+    background-color: #120e96;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    padding-left: 5px;
+    align-items: center;
+    background-image: url("PortoLogistica.jpeg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+
+h1{
+  border: solid red;
+  width: 56vw;
+  height: 21.51vh;
+    font-size: 6rem;
+    color: #FFFFFF;
+    font-weight: 700;
+    display: flex;
+    text-align:left;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+   
+   } 
+   
+p{
+  border: solid blue;
+    font-size: 2rem;
+    color: #FFFFFF;
+    font-weight: 300;
+    display:flex;
+ }
+.FC{
+  background-color: #120e96;
+  border: solid white
+
+}
+
+   }
+ }
